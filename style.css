@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 5px;
+}
+
+body {
+  background-color: burlywood;
+}
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+.rand {
+  width: 500px;
+  height: 700px;
+
+  border: 4px solid black;
+  background: rgb(9, 9, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 9, 121, 1) 11%,
+    rgba(0, 212, 255, 1) 100%
+  );
+
+  border-radius: 15px;
+  position: relative;
+}
+h1 {
+  text-align: center;
+  color: black;
+  position: relative;
+
+  font-family: fantasy;
+}
+
+.bild2 {
+  position: absolute;
+  width: 45px;
+
+  top: 10px;
+  color: darkred;
+  right: 10px;
+}
+
+.bild3 {
+  position: absolute;
+  top: 10px;
+  width: 40px;
+  left: 10px;
+}
+
+.bild {
+  width: 280px;
+  height: 280px;
+  top: 40px;
+  left: 89px;
+  position: relative;
+
+  border-radius: 50%;
+}
+section {
+  position: relative;
+}
+h2,
+h3 {
+  position: relative;
+  top: 45px;
+  text-align: center;
+}
+
+.left {
+  display: flex;
+  margin-top: 80px;
+
+  justify-content: space-around;
+}
